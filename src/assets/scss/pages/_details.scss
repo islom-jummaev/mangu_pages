@@ -1,0 +1,121 @@
+.details-header {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #F9F9F9;
+
+    .back-link   {
+        display: inline-block;
+        text-decoration: none;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #3D3D3D;
+        margin-bottom: 40px;
+
+        svg {
+            margin-right: 11px;
+        }
+    }
+
+    .content {
+        display: flex;
+        gap: 80px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+.details-features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .title {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        letter-spacing: 0.2px;
+        color: #212121;
+        margin-bottom: 56px;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-column-gap: 30px;
+    }
+}
+
+.products-slider {
+    background-color: #F9F9F9;
+    padding-top: 87px;
+    padding-bottom: 206px;
+
+    .similar-products {
+        .container {
+            overflow: hidden;
+        }
+
+        .btn-pagin {
+            &:hover, &:active, &:focus {
+                background-color: #fff;
+            }
+        }
+
+        .navigator {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 16px;
+        }
+
+        .products {
+            position: relative;
+            left: 0;
+            display: inline-flex;
+            grid-column-gap: 0;
+            transition: all 1s ease;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .details-header {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .content {
+            display: block;
+
+            .product-info {
+                margin-top: 32px;
+            }
+        }
+    }
+
+    .details-features {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .title {
+            font-size: 20px;
+        }
+
+        .content {
+            grid-template-columns: auto;
+            grid-column-gap: 0;
+
+            .product-description {
+                margin-top: 32px;
+            }
+        }
+    }
+
+    .products-slider {
+        padding-top: 40px;
+        padding-bottom: 56px;
+    }
+}

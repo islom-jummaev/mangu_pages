@@ -1,0 +1,72 @@
+.product-text {
+    .title {
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        color: #212121;
+    }
+
+    .excerpt {
+        margin-top: 8px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #212121;
+    }
+
+    .features {
+        .title {
+            margin: 24px 0px 8px 0;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #212121;
+        }
+
+        .list {
+            margin-left: 16px;
+
+            .item {
+                position: relative;
+                font-family: "Manrope";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                color: #212121;
+
+                &::before {
+                    position: absolute;
+                    content: ""; 
+                    background-color: #0C5177;
+                    border-radius: 50%;
+                    width: 4px;
+                    height: 4px;
+                    left: -16px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+
+    .action {
+        display: block;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #14C700;
+        margin-top: 16px;
+    }
+}

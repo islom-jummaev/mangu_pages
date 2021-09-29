@@ -1,0 +1,139 @@
+.auction-card {
+    width: 100%;
+    background: linear-gradient(88.4deg, #109E00 -0.24%, #14C700 113.01%);
+    border-radius: 8px;
+    padding: 32px;
+
+    .first {
+        .second {
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: #ffffff;
+        }
+
+        hr {
+            mix-blend-mode: overlay;
+            opacity: 0.2;
+            margin-top: 16px;
+            color: #ffffff;
+            height: 1px;
+        }
+    }
+
+    .price {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #ffffff;
+        margin-left: 8px;
+    }
+
+    .thirt {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+
+        svg {
+            width: auto;
+            height: 50px;
+        }
+    }
+
+    .timer {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 56px;
+        line-height: 66px;
+        color: #ffffff;
+        margin-left: 15px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+    }
+
+    .sixth {
+        h3 {
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+
+        span {
+            font-family: Roboto, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+    }
+
+    .seventh {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    .btn-secondary {
+        margin-top: 24px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+    .auction-card {
+        left: 0px;
+        padding: 24px;
+
+        .second {
+            font-weight: 500
+        }
+
+        .timer {
+            size: 48px;
+            line-height: 56px;
+        }
+
+        .thirt {
+            display: flex;
+            margin-top: 16px;
+            margin-left: 0px;
+        }
+
+        .sixth {
+            p {
+                font-weight: 500;
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 16px;
+            }
+
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+    }
+}

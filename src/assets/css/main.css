@@ -1,0 +1,1297 @@
+@import 'https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Open+Sans&family=Roboto:wght@300;400;500;600;700&display=swap';
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0; }
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block; }
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent; }
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%; }
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none; }
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline; }
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto; }
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block; }
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item; }
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none; }
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+*:focus {
+  outline: none; }
+
+section, article, main, nav, details, summary, aside, header, footer {
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+
+.container {
+  width: 100%;
+  padding: 0 16px; }
+
+@media (min-width: 576px) {
+  .container {
+    width: 544px;
+    margin: 0 auto; } }
+
+@media (min-width: 816px) {
+  .container {
+    width: 768px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+.navbar {
+  background: #212121;
+  width: 100%; }
+  .navbar .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navbar .body .brand svg {
+      display: none; }
+  .navbar .logo {
+    width: 68.5px;
+    padding-top: 16px;
+    padding-bottom: 16px; }
+  .navbar .menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px; }
+    .navbar .menu > svg {
+      display: none; }
+    .navbar .menu .item {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .navbar .menu .item a {
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        color: #E0E0E0;
+        white-space: nowrap; }
+      .navbar .menu .item.active {
+        border-bottom: 2px solid #14C700; }
+        .navbar .menu .item.active a {
+          color: #14C700; }
+    .navbar .menu ul {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      justify-content: flex-end;
+      margin-left: 40px; }
+      .navbar .menu ul li {
+        display: block; }
+        .navbar .menu ul li svg {
+          height: 16px;
+          width: auto;
+          margin-bottom: 0; }
+        .navbar .menu ul li svg path {
+          fill: #fff; }
+
+@media (max-width: 992px) {
+  .navbar .body .brand {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navbar .body .brand svg {
+      cursor: pointer;
+      display: block; }
+  .navbar .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #fff;
+    padding: 32px 32px 132px 32px;
+    z-index: 99; }
+    .navbar .menu svg {
+      display: block;
+      cursor: pointer;
+      margin-bottom: 96px;
+      margin-left: auto; }
+    .navbar .menu .item {
+      display: block;
+      padding-top: 0;
+      padding-bottom: 24px;
+      text-align: right; }
+      .navbar .menu .item a {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        color: #3D3D3D; }
+      .navbar .menu .item.active {
+        border-bottom: none; }
+        .navbar .menu .item.active a {
+          color: #14C700; }
+      .navbar .menu .item:nth-last-child(2) {
+        padding-bottom: 0; }
+    .navbar .menu ul {
+      margin-left: 0;
+      margin-top: 32px; }
+      .navbar .menu ul li svg path {
+        fill: #3D3D3D; }
+    .navbar .menu::after {
+      position: absolute;
+      content: "";
+      top: 100%;
+      left: 0;
+      width: 100vw;
+      height: calc(100vh - 100%);
+      background-color: rgba(0, 0, 0, 0.37);
+      z-index: -1; } }
+
+.btn {
+  white-space: nowrap;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  border: none; }
+
+.d-block {
+  display: block; }
+
+.btn-primary {
+  padding: 16px 24px;
+  background: linear-gradient(88.4deg, #109E00 -0.24%, #14C700 113.01%);
+  color: white; }
+
+.btn-secondary {
+  padding: 16px 24px;
+  background-color: white;
+  color: #14C700; }
+
+.btn-pagin {
+  padding: 12px 20px;
+  background: #ffffff;
+  border: 1px solid #f1f4f4;
+  border-radius: 2px;
+  color: #666666;
+  transition: background 0.4s ease; }
+  .btn-pagin.disabled svg path {
+    fill: #E0E0E0;
+    cursor: not-allowed; }
+  .btn-pagin:hover, .btn-pagin:focus, .btn-pagin.active {
+    background-color: #0c5177;
+    color: white; }
+
+.product-image {
+  display: grid;
+  grid-template-columns: 55px 306px;
+  grid-column-gap: 9px; }
+  .product-image .big-image {
+    display: block;
+    width: 306px;
+    height: 308px;
+    overflow: hidden; }
+    .product-image .big-image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center; }
+  .product-image .thumbnails {
+    width: 55px;
+    height: 308px;
+    overflow: hidden; }
+    .product-image .thumbnails .thumbnail {
+      display: block;
+      width: 55px;
+      height: 55px;
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+      opacity: 0.6;
+      border: 1px solid #F1F4F4;
+      border-radius: 2px;
+      margin-bottom: 8px;
+      cursor: pointer; }
+      .product-image .thumbnails .thumbnail.active {
+        opacity: 1;
+        border: 1px solid #CCCCCC; }
+      .product-image .thumbnails .thumbnail:hover {
+        opacity: 1;
+        border: 1px solid #CCCCCC; }
+      .product-image .thumbnails .thumbnail:last-child {
+        margin-bottom: 0; }
+
+@media (max-width: 992px) {
+  .product-image {
+    display: flex;
+    flex-direction: column; }
+    .product-image .big-image {
+      width: 100%;
+      order: 1;
+      margin-bottom: 16px; }
+    .product-image .thumbnails {
+      display: flex;
+      width: 100%;
+      order: 2;
+      height: auto; }
+      .product-image .thumbnails .thumbnail {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 0;
+        margin-right: 8px; }
+        .product-image .thumbnails .thumbnail:last-child {
+          margin-right: 0; } }
+
+.product-text .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #212121; }
+
+.product-text .excerpt {
+  margin-top: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #212121; }
+
+.product-text .features .title {
+  margin: 24px 0px 8px 0;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212121; }
+
+.product-text .features .list {
+  margin-left: 16px; }
+  .product-text .features .list .item {
+    position: relative;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #212121; }
+    .product-text .features .list .item::before {
+      position: absolute;
+      content: "";
+      background-color: #0C5177;
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      left: -16px;
+      top: 50%;
+      transform: translateY(-50%); }
+
+.product-text .action {
+  display: block;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #14C700;
+  margin-top: 16px; }
+
+.auction-form .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 16px; }
+
+.auction-form table {
+  width: 100%;
+  border-collapse: collapse; }
+  .auction-form table td, .auction-form table th {
+    border-bottom: 1px solid #f1f4f4;
+    padding: 24px 0px; }
+  .auction-form table tr:last-child td, .auction-form table tr:last-child th {
+    border-bottom-color: transparent; }
+  .auction-form table th {
+    text-align: left;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #525252; }
+  .auction-form table td {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #212121; }
+
+.auction-form form {
+  color: unset; }
+  .auction-form form .price {
+    display: block;
+    width: 100%;
+    max-width: 463px;
+    padding: 24px;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #B8B8B8;
+    border: 1px solid #A3A3A3;
+    border-radius: 4px;
+    margin-top: 16px; }
+  .auction-form form .checkbox {
+    border: 1px solid #a3a3a3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px; }
+  .auction-form form label {
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 36px; }
+    .auction-form form label a {
+      color: #109e00;
+      margin-bottom: 32px; }
+  .auction-form form .btn-primary {
+    width: 100%;
+    max-width: 306px; }
+
+@media (max-width: 992px) {
+  .auction-form .title {
+    font-size: 20px;
+    margin-bottom: 0; }
+  .auction-form table th {
+    font-size: 12px;
+    line-height: 16px; }
+  .auction-form table td {
+    font-size: 14px;
+    line-height: 16px; }
+  .auction-form form .price {
+    max-width: 100%;
+    padding: 16px 24px;
+    font-size: 14px; }
+  .auction-form form label {
+    margin-top: 20px;
+    margin-bottom: 36px;
+    margin-right: 8px; }
+  .auction-form form .btn-primary {
+    max-width: 100%; } }
+
+.auction-card {
+  width: 100%;
+  background: linear-gradient(88.4deg, #109E00 -0.24%, #14C700 113.01%);
+  border-radius: 8px;
+  padding: 32px; }
+  .auction-card .first .second {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff; }
+  .auction-card .first hr {
+    mix-blend-mode: overlay;
+    opacity: 0.2;
+    margin-top: 16px;
+    color: #ffffff;
+    height: 1px; }
+  .auction-card .price {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-left: 8px; }
+  .auction-card .thirt {
+    display: flex;
+    align-items: center;
+    margin-top: 16px; }
+    .auction-card .thirt svg {
+      width: auto;
+      height: 50px; }
+  .auction-card .timer {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    color: #ffffff;
+    margin-left: 15px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase; }
+  .auction-card .sixth h3 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF; }
+  .auction-card .sixth span {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 32px;
+    color: #FFFFFF; }
+  .auction-card .sixth p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF; }
+  .auction-card .seventh {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px; }
+  .auction-card .btn-secondary {
+    margin-top: 24px;
+    width: 100%; }
+
+@media (max-width: 992px) {
+  .auction-card {
+    left: 0px;
+    padding: 24px; }
+    .auction-card .second {
+      font-weight: 500; }
+    .auction-card .timer {
+      size: 48px;
+      line-height: 56px; }
+    .auction-card .thirt {
+      display: flex;
+      margin-top: 16px;
+      margin-left: 0px; }
+    .auction-card .sixth p {
+      font-weight: 500; }
+    .auction-card .sixth h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 16px; }
+    .auction-card .sixth span {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 16px; } }
+
+.pagination {
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center; }
+
+@media screen and (max-width: 816px) {
+  .pagin-block {
+    width: 350px;
+    height: auto;
+    padding: 0; } }
+
+.product-description p {
+  font-family: 'Manrope',sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 24px; }
+
+.product-info {
+  max-width: 306px; }
+  .product-info .name h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #212121;
+    letter-spacing: 0.2px; }
+  .product-info .detail p {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #3d3d3d;
+    margin-top: 16px;
+    margin-bottom: 24px; }
+  .product-info hr {
+    border-color: #F1F4F4;
+    height: 0;
+    margin-left: 0px; }
+  .product-info .o-price {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #3d3d3d;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+    .product-info .o-price span {
+      font-weight: bold;
+      font-size: 14px; }
+  .product-info .time-box {
+    display: flex;
+    align-items: center; }
+    .product-info .time-box svg {
+      width: auto;
+      height: 48px; }
+  .product-info .timer {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    color: #3d3d3d;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-left: 16px; }
+  .product-info .auc-prices {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+    .product-info .auc-prices h6 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 32px;
+      text-transform: uppercase;
+      color: #0c5177;
+      margin-bottom: 8px; }
+    .product-info .auc-prices p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #525252; }
+    .product-info .auc-prices span {
+      font-size: 12px;
+      line-height: 16px; }
+  .product-info .current-price {
+    border-left: 1px solid #f1f4f4;
+    padding-left: 16px;
+    padding-right: 17px; }
+
+@media (max-width: 992px) {
+  .product-info {
+    max-width: 100%;
+    margin: 0px; }
+    .product-info .name h4 {
+      font-size: 20px; }
+    .product-info .detail p {
+      font-size: 14px; }
+    .product-info .timer {
+      font-size: 48px;
+      line-height: 56px; }
+    .product-info .auc-prices h6 {
+      font-size: 24px; } }
+
+.product-features {
+  width: 100%; }
+  .product-features ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px 24px; }
+    .product-features ul li {
+      font-family: Manrope;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: black; }
+  .product-features .grey {
+    background-color: #F9F9F9; }
+    .product-features .grey li {
+      font-family: Manrope;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: black; }
+
+@media (max-width: 992px) {
+  .product-features {
+    width: auto; }
+    .product-features ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 16px 24px; }
+      .product-features ul li {
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: black; }
+    .product-features .grey {
+      background-color: #F9F9F9; }
+      .product-features .grey li {
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: black; } }
+
+.similar-products {
+  background: #F9F9F9;
+  padding-top: 88px;
+  padding-bottom: 155px; }
+  .similar-products .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px; }
+    .similar-products .header .title {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      letter-spacing: 0.2px;
+      color: #212121; }
+  .similar-products .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 48px 30px; }
+  .similar-products a {
+    overflow: hidden; }
+  .similar-products .pagination {
+    margin-top: 66px; }
+
+@media (max-width: 1200px) {
+  .similar-products .products {
+    grid-template-columns: 1fr 1fr 1fr; } }
+
+@media (max-width: 992px) {
+  .similar-products .products {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 576px) {
+  .similar-products {
+    padding-top: 40px;
+    padding-bottom: 56px; }
+    .similar-products .products {
+      grid-gap: 10px 8px; }
+    .similar-products .header {
+      margin-bottom: 32px; }
+      .similar-products .header h2 {
+        font-size: 20px; }
+    .similar-products .pagination {
+      margin-top: 32px; } }
+
+.featured-product {
+  padding-top: 64px;
+  padding-bottom: 56px; }
+  .featured-product .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    margin-top: 0;
+    margin-bottom: 40px; }
+  .featured-product .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 44px; }
+
+@media (max-width: 1200px) {
+  .featured-product .content {
+    grid-template-columns: auto auto;
+    grid-row-gap: 44px; } }
+
+@media (max-width: 992px) {
+  .featured-product .content {
+    grid-template-columns: auto;
+    grid-row-gap: 32px; } }
+
+.product {
+  display: block;
+  border-radius: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-bottom: 4px solid transparent;
+  cursor: pointer; }
+  .product:hover {
+    border-bottom-color: #14C700; }
+  .product .img {
+    width: 100%;
+    min-height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+    .product .img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center; }
+  .product .details {
+    width: inherit;
+    padding: 24px 24px 32px 24px; }
+    .product .details div {
+      width: inherit;
+      display: flex;
+      justify-content: space-between; }
+  .product .info {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #3D3D3D;
+    margin-bottom: 16px;
+    height: 73px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; }
+  .product .price {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 24px;
+    color: #109E00;
+    padding-right: 8px;
+    white-space: nowrap; }
+    .product .price sup {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #666666; }
+  .product .old-price {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-decoration-line: line-through;
+    color: #A3A3A3;
+    -moz-text-decoration-line: line-through;
+    white-space: nowrap; }
+
+@media (max-width: 576px) {
+  .product {
+    max-width: 100%; }
+    .product .details {
+      padding: 8px 8px 16px 8px; }
+    .product .info {
+      font-size: 12px;
+      line-height: 16px;
+      height: 32px;
+      max-height: 32px;
+      -webkit-line-clamp: 2; }
+    .product .price {
+      font-size: 22px; }
+    .product .price sup {
+      font-size: 8px; }
+    .product .old-price {
+      font-size: 12px; } }
+
+.details-header {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: #F9F9F9; }
+  .details-header .back-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #3D3D3D;
+    margin-bottom: 40px; }
+    .details-header .back-link svg {
+      margin-right: 11px; }
+  .details-header .content {
+    display: flex;
+    gap: 80px; }
+  .details-header .btn-primary {
+    width: 100%; }
+
+.details-features {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .details-features .title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.2px;
+    color: #212121;
+    margin-bottom: 56px; }
+  .details-features .content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 30px; }
+
+.products-slider {
+  background-color: #F9F9F9;
+  padding-top: 87px;
+  padding-bottom: 206px; }
+  .products-slider .similar-products .container {
+    overflow: hidden; }
+  .products-slider .similar-products .btn-pagin:hover, .products-slider .similar-products .btn-pagin:active, .products-slider .similar-products .btn-pagin:focus {
+    background-color: #fff; }
+  .products-slider .similar-products .navigator {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px; }
+  .products-slider .similar-products .products {
+    position: relative;
+    left: 0;
+    display: inline-flex;
+    grid-column-gap: 0;
+    transition: all 1s ease; }
+
+@media (max-width: 992px) {
+  .details-header {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .details-header .content {
+      display: block; }
+      .details-header .content .product-info {
+        margin-top: 32px; }
+  .details-features {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .details-features .title {
+      font-size: 20px; }
+    .details-features .content {
+      grid-template-columns: auto;
+      grid-column-gap: 0; }
+      .details-features .content .product-description {
+        margin-top: 32px; }
+  .products-slider {
+    padding-top: 40px;
+    padding-bottom: 56px; } }
+
+.auction-details {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #F9F9F9 50%, #fff 50%); }
+  .auction-details .body {
+    display: grid;
+    grid-template-columns: 399px auto;
+    background-color: white; }
+  .auction-details .details {
+    width: 100%;
+    padding-top: 68px;
+    padding-bottom: 148px;
+    background-color: #f9f9f9;
+    padding-right: 30px; }
+    .auction-details .details .back-link {
+      display: inline-block;
+      text-decoration: none;
+      font-family: Manrope, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #3D3D3D;
+      margin-bottom: 40px; }
+      .auction-details .details .back-link svg {
+        margin-right: 11px; }
+    .auction-details .details .auction-product-details {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 369px; }
+    .auction-details .details .product-text {
+      margin-top: 40px; }
+  .auction-details .auction-form {
+    padding-top: 68px;
+    padding-bottom: 148px;
+    padding-left: 48px; }
+
+@media (max-width: 992px) {
+  .auction-details {
+    background: none; }
+    .auction-details .body {
+      grid-template-columns: auto; }
+    .auction-details .details {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-right: 0; }
+      .auction-details .details .back-link {
+        display: inline-block;
+        text-decoration: none;
+        font-family: Manrope, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #3D3D3D;
+        margin-bottom: 40px; }
+        .auction-details .details .back-link svg {
+          margin-right: 11px; }
+      .auction-details .details .auction-product-details {
+        margin-top: 40px;
+        max-width: 100%; }
+      .auction-details .details::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: calc((100vw - 100% ) / -2);
+        width: 100vw;
+        height: 1000px;
+        background-color: #f9f9f9;
+        z-index: -1; }
+      .auction-details .details .product-text {
+        margin-top: 32px; }
+    .auction-details .auction-form {
+      position: relative;
+      background-color: #fff;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 0; }
+      .auction-details .auction-form::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: calc((100vw - 100% ) / -2);
+        width: 100vw;
+        height: 100%;
+        background-color: #fff;
+        z-index: -1; } }

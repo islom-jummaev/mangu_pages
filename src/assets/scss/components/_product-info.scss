@@ -1,0 +1,143 @@
+.product-info {
+  max-width: 306px;
+  .name {
+    h4 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 32px;
+      color: #212121;
+      letter-spacing: 0.2px;
+    }
+  }
+
+  .detail {
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #3d3d3d;
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
+  }
+
+  hr {
+    border-color: #F1F4F4;
+    height: 0;
+    margin-left: 0px;
+  }
+
+  .o-price {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #3d3d3d;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    span {
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+
+  .time-box {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: auto;
+      height: 48px;
+    }
+  }
+
+  .timer {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    color: #3d3d3d;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-left: 16px;
+  }
+
+  .auc-prices {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    h6 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 32px;
+      text-transform: uppercase;
+      color: #0c5177;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #525252;
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .current-price {
+    border-left: 1px solid #f1f4f4;
+    padding-left: 16px;
+    padding-right: 17px;
+  }
+}
+
+@media (max-width: 992px) {
+  .product-info {
+    max-width: 100%;
+    margin: 0px;
+
+    .name {
+      h4 {
+        font-size: 20px;
+      }
+    }
+
+    .detail {
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .timer {
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    .auc-prices {
+      h6 {
+        font-size: 24px;
+      }
+    }
+  }
+}

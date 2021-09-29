@@ -1,0 +1,16 @@
+.pagination {
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:816px){
+    .pagin-block {
+        width: 350px;
+        height: auto;
+        padding: 0;
+    }
+}

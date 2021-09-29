@@ -1,0 +1,24 @@
+
+@import 'https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&family=Open+Sans&family=Roboto:wght@300;400;500;600;700&display=swap';
+
+@import 'vendors/normalize',
+        'vendors/reset';
+
+@import 'layout/grid',
+        'layout/navbar';
+
+@import 'components/button',
+        'components/product-image',
+        'components/product-text',
+        'components/auction-form',
+        'components/auction-card',
+        'components/pagination',
+        'components/product-description',
+        'components/product-info',
+        'components/product-features',
+        'components/similar-products',
+        'components/featured-product',
+        'components/product';
+
+@import 'pages/details',
+        'pages/auction';

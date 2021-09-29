@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Product Details</title>
+</head>
+
+<body>
+
+    <section class="navbar">
+        <nav class="container">
+            <div class="body">
+                <div class="brand">
+                    <img class="logo" src="../assets/images/layout/Layer%201%201.png" alt="">
+                    <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0 1.13762C0 0.50933 0.537258 0 1.2 0H22.8C23.4627 0 24 0.50933 24 1.13762C24 1.76591 23.4627 2.27524 22.8 2.27524H1.2C0.537259 2.27524 0 1.76591 0 1.13762Z"
+                            fill="white" />
+                        <path
+                            d="M0 8C0 7.37171 0.537258 6.86238 1.2 6.86238H22.8C23.4627 6.86238 24 7.37171 24 8C24 8.62829 23.4627 9.13762 22.8 9.13762H1.2C0.537259 9.13762 0 8.62829 0 8Z"
+                            fill="white" />
+                        <path
+                            d="M1.2 13.7248C0.537258 13.7248 0 14.2341 0 14.8624C0 15.4907 0.537259 16 1.2 16H22.8C23.4627 16 24 15.4907 24 14.8624C24 14.2341 23.4627 13.7248 22.8 13.7248H1.2Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <ul class="menu">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 14.8626C16 15.4908 15.6435 16 15.2038 16H8.79615C8.35645 16 8 15.4908 8 14.8626C8 14.2345 8.35645 13.7253 8.79615 13.7253H15.2038C15.6435 13.7253 16 14.2345 16 14.8626Z"
+                            fill="#3D3D3D" />
+                        <path
+                            d="M16 8.00028C16 8.62843 15.6435 9.13764 15.2038 9.13764H0.796155C0.356451 9.13764 0 8.62843 0 8.00028C0 7.37213 0.35645 6.86292 0.796155 6.86292H15.2038C15.6435 6.86292 16 7.37213 16 8.00028Z"
+                            fill="#3D3D3D" />
+                        <path
+                            d="M15.2038 2.27473C15.6435 2.27473 16 1.76551 16 1.13736C16 0.509214 15.6435 0 15.2038 0H5.59615C5.15645 0 4.8 0.509214 4.8 1.13736C4.8 1.76551 5.15645 2.27473 5.59615 2.27473H15.2038Z"
+                            fill="#3D3D3D" />
+                    </svg>
+                    <li class="item active">
+                        <a href="navbar.html">Bosh sahifa</a>
+                    </li>
+                    <li class="item">
+                        <a href="auction.html">Birjada savdo qilish</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Yangiliklar</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Loyiha haqida</a>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4.70859 6.5907L4.51009 9.3827C4.79409 9.3827 4.91709 9.2607 5.06459 9.1142L6.39609 7.8417L9.15509 9.8622C9.66109 10.1442 10.0176 9.9957 10.1541 9.3967L11.9651 0.910703L11.9656 0.910203C12.1261 0.162203 11.6951 -0.130297 11.2021 0.0532028L0.557089 4.1287C-0.169411 4.4107 -0.158411 4.8157 0.433589 4.9992L3.15509 5.8457L9.47659 1.8902C9.77409 1.6932 10.0446 1.8022 9.82209 1.9992L4.70859 6.5907Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.1831 2.25275C15.0102 1.61014 14.5036 1.10358 13.8611 0.930542C12.6873 0.609375 7.992 0.609375 7.992 0.609375C7.992 0.609375 3.2969 0.609375 2.12311 0.918365C1.49295 1.09122 0.973938 1.61023 0.801086 2.25275C0.492188 3.42645 0.492188 5.86056 0.492188 5.86056C0.492188 5.86056 0.492188 8.30695 0.801086 9.46838C0.974121 10.1109 1.48059 10.6175 2.1232 10.7905C3.30926 11.1118 7.99218 11.1118 7.99218 11.1118C7.99218 11.1118 12.6873 11.1118 13.8611 10.8028C14.5037 10.6298 15.0102 10.1233 15.1833 9.48074C15.4921 8.30695 15.4921 5.87292 15.4921 5.87292C15.4921 5.87292 15.5044 3.42645 15.1831 2.25275ZM6.49713 8.10928V3.61185L10.4015 5.86056L6.49713 8.10928Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section class="details-header">
+        <div class="container">
+            <a class="back-link" href="#">
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.28033 9.53033C4.98744 9.82322 4.51256 9.82322 4.21967 9.53033L0.21967 5.53033C-0.0732233 5.23744 -0.0732233 4.76256 0.21967 4.46967L4.21967 0.46967C4.51256 0.176777 4.98744 0.176777 5.28033 0.46967C5.57322 0.762563 5.57322 1.23744 5.28033 1.53033L1.81066 5L5.28033 8.46967C5.57322 8.76256 5.57322 9.23744 5.28033 9.53033Z"
+                        fill="#14C700" />
+                </svg>
+                Orqaga qaytish
+            </a>
+            <div class="content">
+                <div class="product-image">
+                    <div class="thumbnails">
+                        <img class="thumbnail active" src="../assets/images/product/1.png">
+                        <img class="thumbnail" src="../assets/images/product/2.png">
+                        <img class="thumbnail" src="../assets/images/product/3.jpg">
+                        <img class="thumbnail" src="../assets/images/product/4.jpg">
+                        <img class="thumbnail" src="../assets/images/product/4.jpg">
+                    </div>
+                    <div class="big-image">
+                        <img id="big-image" src="../assets/images/product/1.png">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <div class="info">
+                        <div class="name">
+                            <h4>Redmi Book 14"</h4>
+                        </div>
+                        <div class="detail">
+                            <p>
+                                Redmibook Ryzen 4000 APU o'rnini bosuvchi 10-avlod Intel protsessorlari bilan ishlaydi
+                            </p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="items">
+                        <div class="o-price">
+                            <p>Mahsulotning asl narxi: <span>2469 MNG</span></p>
+                        </div>
+                        <div class="time-box">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M24.474 16.3238L22.0941 18.3401L16.7025 11.9761C16.2975 11.4979 16.3567 10.7821 16.8348 10.3771L17.4834 9.82751C17.9616 9.42251 18.6774 9.48166 19.0824 9.95979L24.474 16.3238Z"
+                                        fill="#14C700" />
+                                    <path
+                                        d="M37.4805 16.3238L39.8604 18.3401L45.252 11.9761C45.657 11.4979 45.5978 10.7821 45.1197 10.3771L44.471 9.82751C43.9929 9.42251 43.277 9.48166 42.872 9.95979L37.4805 16.3238Z"
+                                        fill="#14C700" />
+                                    <path d="M32.5015 6.44531H29.4531V12.8942H32.5015V6.44531Z" fill="#EEF9ED" />
+                                    <path
+                                        d="M30.9792 44.3881C40.3803 44.3881 48.0014 36.767 48.0014 27.3659C48.0014 17.9648 40.3803 10.3438 30.9792 10.3438C21.5781 10.3438 13.957 17.9648 13.957 27.3659C13.957 36.767 21.5781 44.3881 30.9792 44.3881Z"
+                                        fill="#3D6687" />
+                                    <path
+                                        d="M30.9762 10.3438C30.0767 10.3438 29.1938 10.4141 28.332 10.5485C36.4773 11.8189 42.71 18.8642 42.71 27.3658C42.71 35.8675 36.4773 42.9128 28.332 44.1832C29.1938 44.3176 30.0767 44.3879 30.9762 44.3879C40.3772 44.388 47.9982 36.7668 47.9982 27.3659C47.9982 17.9651 40.3772 10.3438 30.9762 10.3438Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M30.978 41.8427C38.9718 41.8427 45.452 35.3624 45.452 27.3686C45.452 19.3748 38.9718 12.8945 30.978 12.8945C22.9842 12.8945 16.5039 19.3748 16.5039 27.3686C16.5039 35.3624 22.9842 41.8427 30.978 41.8427Z"
+                                        fill="#F1FFF0" />
+                                    <path
+                                        d="M30.9772 12.8945C30.0668 12.8945 29.1763 12.9795 28.3125 13.1403C35.0335 14.3912 40.1223 20.2854 40.1223 27.369C40.1223 34.4526 35.0335 40.3469 28.3125 41.5977C29.1763 41.7585 30.0668 41.8434 30.9772 41.8434C38.9711 41.8434 45.4516 35.363 45.4516 27.369C45.4516 19.3749 38.9711 12.8945 30.9772 12.8945Z"
+                                        fill="#EEF9ED" />
+                                    <path
+                                        d="M35.2297 7.36209H26.7257C26.2904 7.36209 25.9375 7.00922 25.9375 6.57394V4.39753C25.9375 3.96225 26.2904 3.60938 26.7257 3.60938H35.2297C35.665 3.60938 36.0179 3.96225 36.0179 4.39753V6.57413C36.0179 7.00931 35.665 7.36209 35.2297 7.36209Z"
+                                        fill="#14C700" />
+                                    <path
+                                        d="M30.9759 29.5807C32.1988 29.5807 33.1901 28.5894 33.1901 27.3665C33.1901 26.1437 32.1988 25.1523 30.9759 25.1523C29.753 25.1523 28.7617 26.1437 28.7617 27.3665C28.7617 28.5894 29.753 29.5807 30.9759 29.5807Z"
+                                        fill="#3D6687" />
+                                    <path
+                                        d="M31.2843 15.6329C31.1161 15.6286 30.9766 15.7625 30.9766 15.9308V21.6583C30.9766 21.884 31.1466 22.0751 31.3712 22.0971C33.9466 22.3492 35.994 24.3966 36.2461 26.9719C36.2681 27.1965 36.4592 27.3666 36.6848 27.3666H42.4124C42.5807 27.3666 42.7145 27.2271 42.7102 27.0588C42.5496 20.8208 37.5223 15.7935 31.2843 15.6329Z"
+                                        fill="#14C700" />
+                                    <path
+                                        d="M30.2578 37.3472V39.1026C30.2578 39.5015 30.5811 39.8248 30.98 39.8248C31.3789 39.8248 31.7021 39.5015 31.7021 39.1026V37.3472C31.7021 36.9483 31.3789 36.625 30.98 36.625C30.5811 36.625 30.2578 36.9483 30.2578 37.3472Z"
+                                        fill="#14C700" />
+                                    <path
+                                        d="M21.7192 27.3667C21.7192 26.9678 21.396 26.6445 20.9971 26.6445H19.2417C18.8428 26.6445 18.5195 26.9678 18.5195 27.3667C18.5195 27.7656 18.8428 28.0888 19.2417 28.0888H20.9971C21.3959 28.0888 21.7192 27.7656 21.7192 27.3667Z"
+                                        fill="#14C700" />
+                                    <path
+                                        d="M15.1913 17.8333H9.43228C9.03816 17.8333 8.71875 17.5139 8.71875 17.1198C8.71875 16.7257 9.03816 16.4062 9.43228 16.4062H15.1913C15.5855 16.4062 15.9049 16.7257 15.9049 17.1198C15.9049 17.5139 15.5855 17.8333 15.1913 17.8333Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M12.3136 26.8412H9.11978C8.72566 26.8412 8.40625 26.5218 8.40625 26.1277C8.40625 25.7336 8.72566 25.4141 9.11978 25.4141H12.3136C12.7077 25.4141 13.0271 25.7335 13.0271 26.1277C13.0271 26.5219 12.7077 26.8412 12.3136 26.8412Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M13.9557 35.849H11.1706C10.7764 35.849 10.457 35.5296 10.457 35.1354C10.457 34.7412 10.7764 34.4219 11.1706 34.4219H13.9557C14.3498 34.4219 14.6692 34.7413 14.6692 35.1354C14.6692 35.5295 14.3498 35.849 13.9557 35.849Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M12.9957 22.3372H4.36197C3.96784 22.3372 3.64844 22.0178 3.64844 21.6237C3.64844 21.2296 3.96784 20.9102 4.36197 20.9102H12.9956C13.3897 20.9102 13.7091 21.2296 13.7091 21.6237C13.7091 22.0178 13.3898 22.3372 12.9957 22.3372Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M12.5238 31.3451H0.713531C0.319406 31.3451 0 31.0257 0 30.6316C0 30.2375 0.319406 29.918 0.713531 29.918H12.5237C12.9178 29.918 13.2372 30.2374 13.2372 30.6316C13.2372 31.0258 12.9179 31.3451 12.5238 31.3451Z"
+                                        fill="#0C5177" />
+                                    <path
+                                        d="M16.503 39.9077H7.52994C7.13581 39.9077 6.81641 39.5883 6.81641 39.1941C6.81641 38.7999 7.13581 38.4805 7.52994 38.4805H16.503C16.8972 38.4805 17.2166 38.7999 17.2166 39.1941C17.2166 39.5883 16.8972 39.9077 16.503 39.9077Z"
+                                        fill="#0C5177" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="48" height="48" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="timer">
+                                <span class="hours">02</span>:<span class="minutes">01</span>:<span
+                                    class="seconds">14</span>
+                            </p>
+                        </div>
+                        <div class="auc-prices">
+                            <div class="start-price">
+                                <h6>312 <span> MNG.</span></h6>
+                                <p>Boshlang'ich auksion narxi</p>
+                            </div>
+                            <div class="current-price">
+                                <h6>578 <span> MNG.</span></h6>
+                                <p>Joriy auksion narxi</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">
+                            Auksionda qatnashish
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="details-features">
+        <div class="container">
+            <h2 class="title">Mahsulot haqida ma’lumot</h2>
+            <div class="content">
+                <div class="product-features">
+                    <ul class="grey">
+                        <li>Brand</li>
+                        <li>Redmi</li>
+                    </ul>
+                    <ul>
+                        <li>Product Dimensions </li>
+                        <li>28.6 x 6.2 x 45.5 cm; 2.61 Kilograms</li>
+                    </ul>
+                    <ul class="grey">
+                        <li>Batteries</li>
+                        <li>1 Lithium Polymer batteries required. (included)</li>
+                    </ul>
+                    <ul>
+                        <li>Item model number</li>
+                        <li>NX.HS5EM.001</li>
+                    </ul>
+                    <ul class="grey">
+                        <li>Manufactugirer</li>
+                        <li>Redmi</li>
+                    </ul>
+                    <ul>
+                        <li>Series</li>
+                        <li>A315-56-33U4</li>
+                    </ul>
+                    <ul class="grey">
+                        <li>Color</li>
+                        <li>Black</li>
+                    </ul>
+                    <ul>
+                        <li>Standing screen display size</li>
+                        <li>15.6 Inches</li>
+                    </ul>
+                    <ul class="grey">
+                        <li>Screen Resolution</li>
+                        <li>1280 x 720</li>
+                    </ul>
+                    <ul>
+                        <li>Processor Brand</li>
+                        <li>Intel</li>
+                    </ul>
+                    <ul>
+                        <li>Processor Type</li>
+                        <li>Core i5</li>
+                    </ul>
+                    <ul class="grey">
+                        <li>Processor Speed</li>
+                        <li>3.4 GHz</li>
+                    </ul>
+                    <ul>
+                        <li>Processor Count</li>
+                        <li>2</li>
+                    </ul>
+                    <ul>
+                        <li>RAM Size</li>
+                        <li>4 GB</li>
+                    </ul>
+                </div>
+                <div class="product-description">
+                    <p>
+                        RedmiBook 14 o'ninchi avlod Intel Core i5 protsessori bilan ishlaydi. Smartfon 14 ″ FHD Full HD
+                        ekrani va 1920 x 1080, 5,75 mm chegara 1, ekran nisbati 81,2%. Qurilmaning ekrani yuqori
+                        aniqlikdagi porlashdan himoyalangan.
+                    </p>
+                    <p>
+                        Ushbu model kamera bilan ta'minlanmagan. Smartfonga 46 Vt quvvatga ega (Min) batareya quvvati,
+                        65 Vt quvvatli adapter va Support 1C tez quvvatlanishi kiradi.
+                    </p>
+                    <p>
+                        Telefon oldindan o'rnatilgan Windows 10 Home Edition + Xiaomi aqlli qulfini ochishda ishlaydi
+                        (Xiaomi Bracelet 3, Xiaomi Bracelet 3 NFC Edition va Black Plus Bracelet).
+                    </p>
+                    <p>
+                        RedmiBook 14 bitta rangli, oy nurida kumush rangga ega. Bu USB 3.0 interfeysi x 2,5Gb / s
+                        uzatish tezligi, ma'lumotlarni uzatishni qo'llab-quvvatlash + USB 2.0 interfeysi x 1; 3,5 mm
+                        interfeysi x 1
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-slider">
+        <div class="container">
+            <section class="similar-products">
+                <div class="container">
+                    <header class="header">
+                        <h2 class="title">O’xshash mahsulotlar</h2>
+                        <div class="navigator">
+                            <button class="btn btn-pagin disabled" id="prev-slide">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.68048 0.317743C7.25445 -0.108283 6.56373 -0.108283 6.1377 0.317743L0.31952 6.13593C-0.106507 6.56195 -0.106507 7.25268 0.31952 7.6787L6.1377 13.4969C6.56373 13.9229 7.25445 13.9229 7.68048 13.4969C8.10651 13.0709 8.10651 12.3801 7.68048 11.9541L2.63369 6.90731L7.68048 1.86052C8.10651 1.4345 8.10651 0.743769 7.68048 0.317743Z"
+                                        fill="#666666" />
+                                </svg>
+                            </button>
+                            <button class="btn btn-pagin" id="next-slide">
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.31952 13.4987C0.745547 13.9247 1.43627 13.9247 1.8623 13.4987L7.68048 7.68048C8.10651 7.25445 8.10651 6.56373 7.68048 6.1377L1.8623 0.31952C1.43627 -0.106507 0.745547 -0.106507 0.31952 0.31952C-0.106506 0.745546 -0.106506 1.43627 0.31952 1.8623L5.36631 6.90909L0.31952 11.9559C-0.106506 12.3819 -0.106506 13.0726 0.31952 13.4987Z"
+                                        fill="#666666" />
+                                </svg>
+                            </button>
+                        </div>
+                    </header>
+                    <div class="products" id="slider">
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/mouse.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Logitech MX Master 3 <br />
+                                            Wireless Mouse Black edition
+                                        </p>
+                                        <div>
+                                            <p class="price">244 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>357 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/camera.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Logitech 960-001252 <br />
+                                            C920S Pro HD Webcam <br />
+                                            Premium quality
+                                        </p>
+                                        <div>
+                                            <p class="price">156 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>347 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Watch.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Apple Watch Series 3 <br />
+                                            Space Gray Aluminum Case
+                                        </p>
+                                        <div>
+                                            <p class="price">1123 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>3312 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Microphone.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Blue Yeti Nano Premium USB <br />
+                                            Mic for Recording & streaming
+                                        </p>
+                                        <div>
+                                            <p class="price">2422 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>4987 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Microphone.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Blue Yeti Nano Premium USB <br />
+                                            Mic for Recording & streaming
+                                        </p>
+                                        <div>
+                                            <p class="price">2422 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>4987 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Playstation.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Sony PlayStation 4 Pro <br />
+                                            1TB Console Black version <br />
+                                            with console
+                                        </p>
+                                        <div>
+                                            <p class="price">7321 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>8987 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Projector.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Festnight SD40 LCD Projector <br />
+                                            LED 1080P Home Theater <br />
+                                            5000 Lum
+                                        </p>
+                                        <div>
+                                            <p class="price">953 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>1420 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Airpods_pro.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Apple <br />
+                                            Airpods Pro
+                                        </p>
+                                        <div>
+                                            <p class="price">567 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>1240 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                        <div class="slide">
+                            <a href="#">
+                                <article class="product">
+                                    <div class="img">
+                                        <img src="../assets/images/product/Airpods_pro.jpg" />
+                                    </div>
+                                    <div class="details">
+                                        <p class="info">
+                                            Apple <br />
+                                            Airpods Pro
+                                        </p>
+                                        <div>
+                                            <p class="price">567 <sup>MNG</sup></p>
+                                            <p class="old-price"><del>1240 MNG</del></p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
